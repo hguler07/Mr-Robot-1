@@ -129,14 +129,15 @@ kodumuz: = > wc -l yeni.txt
 ## **Wordpress Kullanıcı Girişi Bilgi Toplama**
 hydra yardımıyla wordlist’ti kullanıcaz ancak öğrenmemiz gereken bazı bilgiler var.
 bunuda Burpsuite ile araya girip öğreneceğiz.
->Önce tarayıcımızın proxy ayarını yapıyoruz.
+```bash
+Önce tarayıcımızın proxy ayarını yapıyoruz.
 Daha sonra Burpsuite açıyoruz Intercept ‘i on yapıyoruz
 Giriş yapmayı deniyoruz.
-
+```
 Burpsuite den ihtiyacımız olan bilgileri alıyoruz.
 ```bash
 POST /wp-login.php HTTP/1.1
-log=admin&pwd=admin&wp-submit=log+In
+log=admin&pwd=admin&wp-submit=Log+In
 ```
 
 ## **Brute Force Yöntemi ile Kullanıcı Adı Bulma**
