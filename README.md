@@ -10,7 +10,7 @@ Mr-Robot:1 makinasını  "https://www.vulnhub.com/entry/mr-robot-1,151/" adresin
 Web sitesinde bulunan açıklama kısmına bakıcak olursak.
    ```shell
    Sanal makinamızda gizlenmiş 3 adet anahtar var.
-    Bizim amacımız bu anahtarları bulmak.
+   Bizim amacımız bu anahtarları bulmak.
    ```
 ### **Vmware Üzerinde Mr-Robot:1 Çalıştırılması**
 İndirmiş olduğumuz mrRobot.ova isimli dosyamızı Vmware da çalıştırmak için;
