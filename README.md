@@ -283,7 +283,7 @@ cd /root
 ls
 firsboot_done  key-3-of-3.txt
 ```
-Mr-Robot:1 makinamızdaki görevleri tamaladık.
+Mr-Robot:1 makinamızdaki görevleri tamamladık.
 Son anahtarımızı bulduk.
 ```bash
 3. Anahtar: 04787ddef27c3dee1ee161b21670b4e4
