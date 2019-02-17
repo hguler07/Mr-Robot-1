@@ -23,7 +23,7 @@ Ağ ayarlarını yapmazsanız.  Mr-Robot:1 makinamız ile Kali linux arasında h
 
 Bu ayarı yaptıktan sonra Mr-Robot:1 makinanızı yeniden başlatınız. 
 > Mac için Ağ ayarı = >  Share with my Mac ayarını seçin.
-   Windows için ağ ayarı = > NAT:  ayarını seçin.
+ > Windows için ağ ayarı = > NAT:  ayarını seçin.
 
 
 
