@@ -25,5 +25,24 @@ Bu ayarı yaptıktan sonra Mr-Robot:1 makinanızı yeniden başlatınız.
 > Mac için Ağ ayarı = >  Share with my Mac ayarını seçin.
  > Windows için ağ ayarı = > NAT:  ayarını seçin.
 
+## **Kali Linux ve Mr-Robot:1 Makinelerinin İp Adreslerini Öğrenelim**
+Kali linux ün ip adresi öğrenme
+```shell
+komut => ifconfig
+ip adresi: 192.168.173.128
+```
+Mr-Robot:1 in ip adresini öğrenme
+```bash
+komut => netdiscover -r 192.168.173.0/24 
+ip adresi: 192.168.173.141
+```
+## **Mr-Robot:1 Üzerinde Port Taraması**
+Makinamız üzerinde açık olan portları görmek ve bu portlar üzerinde çalışan servisleri bulmak için
+```bash
+komut => nmap -Pn -sV 192.168.173.141
+```
+> 80. port açık ve üzerinde Apache servisi çalışıyor.
+O halde makinamıza tarayıcı üzerinden ulaşım bakalım karşımıza ne çıkıcak.
+
 
 
