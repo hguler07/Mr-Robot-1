@@ -1,6 +1,11 @@
 ## **Mr-Robot:1 Çözümü | Mr-Robot:1 Walkthrough**
-
-  ## **Merhaba**
+ ## **Merhaba**
+ ```shell
+ Yukarıda Bulunan "Proje_Mr-Robot1.pdf" Dosyasında Daha Detaylı Anlatım Mevcut"
+ Dosya Bütünlüğünü korumak adına Hash Değerlerini Sizlerle Paylaşıyorum.
+ MD5 =  9a1c64857f57d10fa6e420c94ff67e89
+ SHA1 = 5c1dd3899ead658f28019b3bd1ea45e2551edb76
+ ```
 **Bu yazıda VulnHub üzerinde yayınlanan zafiyetli sanal makinelerden biri olan Mr-Robot:1 makinesinin tam çözümünü inceleyeceğiz.**
 
 ### **Vulnhub Üzerinden Mr-Robot:1 İndirilmesi**
