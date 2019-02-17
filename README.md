@@ -8,22 +8,26 @@ Mr-Robot:1 makinasını  "https://www.vulnhub.com/entry/mr-robot-1,151/" adresin
 
 ### **Vulnhub Üzerinden Mr-Robot:1 İncelenmesi**
 Web sitesinde bulunan açıklama kısmına bakıcak olursak.
-   
-   > Sanal makinamızda gizlenmiş 3 adet anahtar var.
+   ```shell
+   Sanal makinamızda gizlenmiş 3 adet anahtar var.
     Bizim amacımız bu anahtarları bulmak.
-	
+   ```
 ### **Vmware Üzerinde Mr-Robot:1 Çalıştırılması**
 İndirmiş olduğumuz mrRobot.ova isimli dosyamızı Vmware da çalıştırmak için;
->File -> New Dedik dedikten sonra. 
->Dosyamızı tutup Vmware içine bırakmamız yeterli. 
+```shell
+File -> New Dedik dedikten sonra. 
+Dosyamızı tutup Vmware içine bırakmamız yeterli. 
+```
 
 ## **Önemli Uyarı**
 Mr-Robot:1 makinamızı Vmware ye yüklerden ağ ayarlarını yapmanız gerekiyor.
 Ağ ayarlarını yapmazsanız.  Mr-Robot:1 makinamız ile Kali linux arasında haberleşmede sorun olucaktır.
 
 Bu ayarı yaptıktan sonra Mr-Robot:1 makinanızı yeniden başlatınız. 
-> Mac için Ağ ayarı = >  Share with my Mac ayarını seçin.
- > Windows için ağ ayarı = > NAT:  ayarını seçin.
+```shell
+Mac için Ağ ayarı = >  Share with my Mac ayarını seçin.
+Windows için ağ ayarı = > NAT:  ayarını seçin.
+```
 
 ## **Kali Linux ve Mr-Robot:1 Makinelerinin İp Adreslerini Öğrenelim**
 Kali linux ün ip adresi öğrenme
@@ -41,16 +45,16 @@ Makinamız üzerinde açık olan portları görmek ve bu portlar üzerinde çal�
 ```bash
 komut => nmap -Pn -sV 192.168.173.141
 ```
-> 80. port açık ve üzerinde Apache servisi çalışıyor.
-O halde makinamıza tarayıcı üzerinden ulaşım bakalım karşımıza ne çıkıcak.
+ 80. port açık ve üzerinde Apache servisi çalışıyor.
+> o halde makinamıza tarayıcı üzerinden ulaşım bakalım karşımıza ne çıkıcak.
 
 ## **Tarayıcı Üzerinden Mr-Robot:1 İncelemesi**
 Kali linux’ de yüklü olan firefox tarayıcımızı açarak Mr-Robot:1 makinamızın ip adresine gidiyoruz.
 ```bash
 http://192.168.173.141/
 ```
->Güzel hazırlanmış bir siteyle karşılaşıyoruz. 
-Komutları yazdığımız zaman. komutun sayfasına gidip bizler için hazırlanmış içerikleri görüyoruz
+Güzel hazırlanmış bir siteyle karşılaşıyoruz. 
+> Komutları yazdığımız zaman. komutun sayfasına gidip bizler için hazırlanmış içerikleri görüyoruz
 
 ## **Mr-Robot:1 Gizlenmiş Sayfaları Bulma**
 Komutları denerken farklı sayfalara yöneldik.
