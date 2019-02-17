@@ -282,3 +282,10 @@ Son anahtarımızı bulduk.
 ```bash
 3. Anahtar: 04787ddef27c3dee1ee161b21670b4e4
 ```
+## **Sonuç**
+Mr-Robot:1 makinamızda bulunan anahtarlar.
+```bash
+1. Anahtar: 073403c8a58a1f80d943455fb30724b9
+2. Anahtar: 822c73956184f694993bede3eb39f959
+3. Anahtar: 04787ddef27c3dee1ee161b21670b4e4
+```
